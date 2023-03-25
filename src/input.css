@@ -8,4 +8,16 @@
     color: #242424;
     background-color: #F2F5FB;
   }
+  
+}
+
+@layer components {
+  
+  .swiper-pagination-bullet {
+    @apply w-1.5 h-1.5 rounded-full border border-white;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply w-6 bg-white h-1.5 rounded-full border border-white list-none;
+  }
 }

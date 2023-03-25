@@ -6,6 +6,7 @@ module.exports = {
       center: true,
       padding: {
         DEFAULT: '10px',
+        xs: '0.6rem'
       },
     },
 
@@ -19,13 +20,14 @@ module.exports = {
         'light-gray': '#D7DFFE',
       },
       screens: {
-        xs: '480px',
+        xs: '500px',
         sm: '640px',
         md: '960px',
         lg: '1200px',
         xl: '1440px',
       },
       spacing: {
+        '1.5': '0.375rem',
         '13': '3.25rem',
         '15': '3.75rem',
         '17': '4.25rem',
@@ -43,6 +45,9 @@ module.exports = {
         '34': '8.5rem',
         '46': '11.5rem',
       },
+      gridTemplateRows: {
+        '5-100px': 'repeat(5, minmax(100px, 1fr))',
+      }
     },
   },
   plugins: [],

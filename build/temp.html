@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 </head>
 <body>
@@ -86,7 +85,7 @@
                     </div>
 
                     <!-- Search & Card -->
-                    <div class="flex gap-2 items-center xs:gap-3">
+                    <div class="flex gap-2 items-center">
                         <div class="">
                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -133,19 +132,18 @@
         <div class="main">
             <div class="container pb-10">
                 <section class="pt-8 px-6">
-                    <div class="py-2 xs:px-10">
-                        <h1 class="font-semibold text-[32px] leading-10 xs:text-4xl xs:leading-[42px] text-center">
-                            Services<br> for the <span class="text-main-blue">promotion</span> of crypto
+                    <div class="py-2">
+                        <h1 class="font-semibold text-[32px] leading-10 text-center">Services<br> for the <span
+                                class="text-main-blue">promotion</span> of crypto
                             <span class="text-main-blue">projects</span>
                         </h1>
                     </div>
-                    <div class="xs:px-16">
-                        <div class="leading-6 text-center">
-                            We do not hide our prices because they are the best on the market.
-                        </div>
+                    <div class="leading-6 text-center">
+                        We do not hide our prices because they are the best on the market.
                     </div>
                 </section>
                 <section class="relative">
+
                     <!-- button -->
                     <div class="pt-6 flex justify-center">
                         <button class="flex items-center gap-4 rounded-full bg-main-blue pl-6 pr-1 py-1">
@@ -160,112 +158,86 @@
                         </button>
                     </div>
 
-                    <div class="flex xs:gap-3">
-                        <!-- Block 1 -->
-                        <div class="min-w-[209px] xs:w-1/2 xs:min-w-[240px] xs:-ml-2 xs:mr-2">
-                            <div class="pl-4 -mt-1 xs:mt-6 xs:pl-8 xs:pb-6">
-                                <svg class="xs:w-[145px] xs:h-[57px]" width="55" height="27" viewBox="0 0 55 27"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M54 1C51.9174 6.62401 48.3463 11.9236 42.1462 13.3787C37.5416 14.4594 38.0378 7.49723 37.1681 4.72271C33.86 -5.83097 10.9443 14.7174 7.76906 18.1305C7.18537 18.7579 2.18632 24.9674 2.51682 24.9952C3.31112 25.0619 7.61988 23.8252 6.50471 24.354C4.85727 25.1352 2.98433 25.1901 1.30851 25.9847C0.475659 26.3796 1.60177 19.0122 1.52161 17.9684"
-                                        stroke="#3861FB" stroke-width="1" stroke-linecap="round" />
-                                </svg>
-                            </div>
-                            <div class="bg-white rounded-xl mt-2 shadow-md">
-                                <div class="p-3 xs:p-4">
-                                    <div class="font-semibold text-sm leading-4 xs:text-base xs:leading-6">Projects in
-                                        our portfolio</div>
-                                    <ul class="py-2 space-y-1 xs:space-y-2">
-                                        <li class="flex items-center gap-2">
-                                            <div
-                                                class="bg-white rounded-full drop-shadow-lg w-6 h-6 xs:w-8 xs:h-8 flex justify-center items-center">
-                                                <img class="p-0.5" src="./img/logo1-company-name.png" alt="">
-                                            </div>
-                                            <div class="text-xs leading-4">Company name</div>
-                                        </li>
-                                        <li class="flex items-center gap-2">
-                                            <div
-                                                class="bg-white rounded-full drop-shadow-lg w-6 h-6 xs:w-8 xs:h-8 flex justify-center items-center">
-                                                <img class="h-full" src="./img/logo2-company-name.png" alt="">
-                                            </div>
+                    <!-- Block 1 -->
+                    <div class="w-7/12">
+                        <div class="pl-4 -mt-1">
+                            <svg width="55" height="27" viewBox="0 0 55 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M54 1C51.9174 6.62401 48.3463 11.9236 42.1462 13.3787C37.5416 14.4594 38.0378 7.49723 37.1681 4.72271C33.86 -5.83097 10.9443 14.7174 7.76906 18.1305C7.18537 18.7579 2.18632 24.9674 2.51682 24.9952C3.31112 25.0619 7.61988 23.8252 6.50471 24.354C4.85727 25.1352 2.98433 25.1901 1.30851 25.9847C0.475659 26.3796 1.60177 19.0122 1.52161 17.9684"
+                                    stroke="#3861FB" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="bg-white rounded-xl mt-2 shadow-md">
+                            <div class="p-3">
+                                <div class="font-semibold text-sm leading-4">Projects in our portfolio</div>
+                                <ul class="py-2 space-y-1">
+                                    <li class="flex items-center gap-2">
+                                        <div class="bg-white rounded-full drop-shadow-lg w-6 h-6">
+                                            <img class="p-0.5" src="./img/logo1-company-name.png" alt="">
+                                        </div>
+                                        <div class="text-xs leading-4">Company name</div>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <div class="bg-white rounded-full drop-shadow-lg w-6 h-6">
+                                            <img class="h-full" src="./img/logo2-company-name.png" alt="">
+                                        </div>
 
-                                            <div class="text-xs leading-4">Company name</div>
-                                        </li>
-                                        <li class="flex items-center gap-2">
-                                            <div
-                                                class="bg-white rounded-full drop-shadow-lg w-6 h-6 xs:w-8 xs:h-8 flex justify-center items-center">
-                                                <img class="p-0.5" src="./img/logo3-company-name.png" alt="">
-                                            </div>
-                                            <div class="text-xs leading-4">Company name</div>
-                                        </li>
-                                    </ul>
-                                    <div
-                                        class="text-main-blue text-sm font-semibold -mt-0.5 xs:text-base xs:leading-6 xs:mt-0">
-                                        + 1 000</div>
-                                </div>
+                                        <div class="text-xs leading-4">Company name</div>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <div class="bg-white rounded-full drop-shadow-lg w-6 h-6">
+                                            <img class="p-0.5" src="./img/logo3-company-name.png" alt="">
+                                        </div>
+                                        <div class="text-xs leading-4">Company name</div>
+                                    </li>
+                                </ul>
+                                <div class="text-main-blue text-sm font-semibold -mt-0.5">+ 1 000</div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- Block2 -->
-                        <div
-                            class="-ml-14 xs:ml-0 mt-25 w-full min-w-[200px] xs:w-1/2 xs:-mt-12 xs:pl-0 z-10 xs:min-w-[240px]">
-                            <div class="pl-20 pb-[10px] xs:flex xs:justify-end xs:pb-7 xs:pr-4">
-                                <svg class="w-[79px] h-[38px] xs:w-[96px] xs:h-[47px]" width="96" height="47"
-                                    viewBox="0 0 96 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Block2 -->
+                    <div class="flex justify-end">
+                        <div class="w-7/12 -mt-[5.4rem] pl-2 z-10">
+                            <div class=""></div>
+                            <div class="pl-20 pb-[10px]">
+                                <svg class="w-[79px] h-[38px]" width="96" height="47" viewBox="0 0 96 47" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M1 7.20469C15.2487 16.5413 32.3014 19.4426 49.2972 16.9608C51.2348 16.6778 53.2383 16.2806 55.2347 15.7611M55.2347 15.7611C59.2694 14.7111 63.2752 13.1613 66.6501 11.0446C68.9376 9.61 72.7776 6.4007 72.145 3.47657C71.0946 -1.37857 63.6764 2.15819 61.0787 3.57004C57.4338 5.55111 54.8816 11.1849 55.2347 15.7611ZM55.2347 15.7611C55.3365 17.0802 55.6797 18.3114 56.3077 19.3419C61.5176 27.8914 73.5061 33.5532 82.1681 38.0991C85.6267 39.9141 89.5608 41.0805 92.8879 43.0174C94.1788 43.7689 92.0237 40.3684 91.8 39.664C90.4804 35.5074 90.3018 35.4664 92.4662 39.7118C92.7659 40.2997 95.1876 44.2528 94.9884 44.5802C94.8493 44.8087 86.1281 45.6454 85.1622 46"
                                         stroke="#3861FB" stroke-width="2" stroke-linecap="round" />
                                 </svg>
+
                             </div>
                             <div class="bg-white rounded-xl shadow-md">
-                                <div class="p-3 xs:p-4">
-                                    <div class="font-semibold text-sm leading-4 xs:text-base xs:leading-6">Influencers
-                                        with us</div>
+                                <div class="p-3">
+                                    <div class="font-semibold text-sm leading-4">Influencers with us</div>
                                     <ul class="py-2 space-y-2 ">
                                         <li class="flex items-center gap-2 justify-between">
-                                            <div class="bg-white rounded-full drop-shadow-lg w-6 h-6 xs:w-8 xs:h-8">
-                                                <picture>
-                                                    <source media="(max-width: 479px)"
-                                                        srcset="./img/logo4-company-name.png">
-                                                    <source media="(min-width: 480px)"
-                                                        srcset="./img/logo4-company-name-480.png">
-                                                    <img class="p-0.5" src="./img/logo4-company-name-480.png" alt="">
-                                                </picture>
+                                            <div class="bg-white rounded-full drop-shadow-lg w-6 h-6">
+                                                <img class="p-0.5" src="./img/logo1-company-name.png" alt="">
                                             </div>
-                                            <div class="text-xs leading-4 flex-auto ">BitBoy Crypto</div>
+                                            <div class="text-xs leading-4 flex-auto">BitBoy Crypto</div>
                                             <div class="text-main-blue text-xs font-semibold">4,45 m</div>
                                         </li>
                                         <li class="flex items-center gap-2 justify-between">
-                                            <div class="bg-white rounded-full drop-shadow-lg w-6 h-6 xs:w-8 xs:h-8">
-                                                <picture>
-                                                    <source media="(max-width: 479px)"
-                                                        srcset="./img/logo5-company-name.png">
-                                                    <source media="(min-width: 480px)"
-                                                        srcset="./img/logo5-company-name-480.png">
-                                                    <img class="p-0.5" src="./img/logo5-company-name-480.png" alt="">
-                                                </picture>
+                                            <div class="bg-white rounded-full drop-shadow-lg w-6 h-6">
+                                                <img class="h-full" src="./img/logo2-company-name.png" alt="">
                                             </div>
 
                                             <div class="text-xs leading-4 flex-auto">Jeffrey Barber</div>
                                             <div class="text-main-blue text-xs font-semibold">3,12 m</div>
                                         </li>
                                         <li class="flex items-center gap-2 justify-between">
-                                            <div class="bg-white rounded-full drop-shadow-lg w-6 h-6 xs:w-8 xs:h-8">
-                                                <picture>
-                                                    <source media="(max-width: 479px)"
-                                                        srcset="./img/logo6-company-name.png">
-                                                    <source media="(min-width: 480px)"
-                                                        srcset="./img/logo6-company-name-480.png">
-                                                    <img class="p-0.5" src="./img/logo6-company-name-480.png" alt="">
-                                                </picture>
+                                            <div class="bg-white rounded-full drop-shadow-lg w-6 h-6">
+                                                <img class="p-0.5" src="./img/logo3-company-name.png" alt="">
                                             </div>
                                             <div class="text-xs leading-4 flex-auto">Julia Hunt</div>
                                             <div class="text-main-blue text-xs font-semibold">1,68 k</div>
                                         </li>
                                     </ul>
-                                    <div
-                                        class="text-main-blue text-sm font-semibold -mt-0.5 xs:text-base xs:leading-6 xs:mt-0">
-                                        + 100</div>
+                                    <div class="text-main-blue text-sm font-semibold -mt-0.5">+ 100</div>
                                 </div>
                             </div>
                         </div>
@@ -315,10 +287,10 @@
             <div class="bg-main-blue">
                 <div class="container">
                     <div class="py-20 pl-7 ">
-                        <div class="swiper slider min-w-0">
+                        <div class="slider min-w-0">
                             <h2 class="font-bold text-[28px] leading-8 text-white pb-6">Best Offers</h2>
-                            <div class="swiper-wrapper slider-wrapper flex pb-6 max-w-[250px]">
-                                <div class="swiper-slide bg-white rounded-3xl py-3 w-full flex-shrink-0">
+                            <div class="slider-wrapper flex gap-5 overflow-hidden translate-x-0">
+                                <div class="slider-item bg-white rounded-3xl py-3 max-w-[300px] flex-shrink-0">
                                     <div class="flex items-center justify-between px-4">
                                         <h4 class="font-bold text-xl leading-6">Plan - 3 months</h4>
                                         <div class="text-right">
@@ -353,7 +325,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide bg-white rounded-3xl py-3 w-full flex-shrink-0">
+                                <div class="slider-item bg-white rounded-3xl py-3 max-w-[300px] flex-shrink-0">
                                     <div class="flex items-center justify-between px-4">
                                         <h4 class="font-bold text-xl leading-6">Plan - 3 months</h4>
                                         <div class="text-right">
@@ -388,7 +360,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide bg-white rounded-3xl py-3 w-full flex-shrink-0">
+                                <div class="slider-item bg-white rounded-3xl py-3 max-w-[300px] flex-shrink-0">
                                     <div class="flex items-center justify-between px-4">
                                         <h4 class="font-bold text-xl leading-6">Plan - 3 months</h4>
                                         <div class="text-right">
@@ -423,7 +395,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide bg-white rounded-3xl py-3 w-full flex-shrink-0">
+                                <div class="slider-item bg-white rounded-3xl py-3 max-w-[300px] flex-shrink-0">
                                     <div class="flex items-center justify-between px-4">
                                         <h4 class="font-bold text-xl leading-6">Plan - 3 months</h4>
                                         <div class="text-right">
@@ -459,30 +431,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-pagination flex gap-1.5 items-center justify-center">
-                                <!-- <li class="w-6 bg-white h-1.5 rounded-full border border-whitegit list-none">
+                            <div class="slider-pagination flex gap-1.5 items-center justify-center py-6">
+                                <li class="swiper-pagination-bullet-active ">
                                 </li>
-                                <li class="w-1.5 h-1.5 rounded-full border border-white list-none"></li>
-                                <li class="w-1.5 h-1.5 rounded-full border border-white list-none"></li>
-                                <li class="w-1.5 h-1.5 rounded-full border border-white list-none"></li> -->
+                                <li class="swiper-pagination-bullet"></li>
+                                <li class="w-1.5 h-1.5 rounded-full border border-white"></li>
+                                <li class="w-1.5 h-1.5 rounded-full border border-white"></li>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- white block -->
-            <div class="bg-white">
-                <div class="container">
-                    <div class="py-20 pl-7">
-                        <h2 class="font-bold text-[28px] leading-8 pb-6">Partners & Clients</h2>
-                        <div class="grid grid-cols-2 grid-rows-5-100px items-center justify-items-center">
-                            <img src="./img/brends/trust-wallet.png" alt=""><img src="./img/brends/dash.png" alt=""><img
-                                src="./img/brends/polkadott.png" alt=""><img src="./img/brends/iqoniq.png" alt=""><img
-                                src="./img/brends/bank-social.png" alt=""><img src="./img/brends/bitforex.png"
-                                alt=""><img src="./img/brends/dopamine.png" alt=""><img src="./img/brends/decent.png"
-                                alt=""><img src="./img/brends/ironFX.png" alt=""><img src="./img/brends/unibright.png"
-                                alt="">
                         </div>
                     </div>
                 </div>
@@ -511,7 +466,6 @@
         <footer></footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <script src="./js/script.js"></script>
 </body>
